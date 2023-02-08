@@ -1,4 +1,4 @@
-# chess.com_custom_css
+# chess.com custom css
 custom .css file for injection into chess.com
 
 .css file should be used with "custom" theme on chess.com (activate it by uploading a custom background)
