@@ -1,0 +1,363 @@
+/* Play Button */
+#board-layout-sidebar > div > div > div > div > div > button{
+ animation: playhue 15s linear infinite;
+}
+
+
+@keyframes boardhue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(9deg);
+  }
+  
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes playhue {
+  0% {
+    filter: hue-rotate(188deg);
+  }
+   20% {
+    filter: hue-rotate(188deg);
+  }
+  40% {
+    filter: hue-rotate(198deg);
+  }
+  55% {
+    filter: hue-rotate(201deg);
+  }
+  70% {
+    filter: hue-rotate(243deg);
+  }
+  80% {
+    filter: hue-rotate(188deg);
+  }
+  
+  100% {
+    filter: hue-rotate(188deg);
+  }
+}
+
+
+@keyframes stockboardhue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+   20% {
+    filter: hue-rotate(0deg);
+  }
+  40% {
+    filter: hue-rotate(0deg);
+  }
+  55% {
+    filter: hue-rotate(6deg);
+  }
+  70% {
+    filter: hue-rotate(55deg);
+  }
+  80% {
+    filter: hue-rotate(0deg);
+  }
+  
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+/* Competition announcements header */
+#board-layout-sidebar div .competition-announcements-header{
+ display:none;
+}
+
+/* Competition announcements component */
+#board-layout-sidebar div .competition-announcements-component{
+ display:none;
+}
+
+/* Label */
+.custom-game-fields-component .ui_v5-switch-component label{
+ filter: hue-rotate(192deg);
+}
+
+/* Rapid */
+#board-layout-sidebar div .rapid{
+ filter: hue-rotate(204deg);
+}
+
+/* Circle clock alt */
+.recent-time-section-component .recent-time-section-header .circle-clock-alt{
+ filter: hue-rotate(190deg);
+}
+
+/* Time Unknownor section icon */
+#board-layout-sidebar div .time-selector-section-icon{
+ filter: hue-rotate(227deg);
+}
+
+/* Chess logo wrapper */
+#sb div .chess-logo-wrapper{
+ filter: hue-rotate(192deg);
+}
+
+/* Board */
+#board{
+ animation: stockboardhue 15s linear infinite;
+ border-top-left-radius:19px;
+ border-top-right-radius:19px;
+ border-bottom-left-radius:19px;
+ border-bottom-right-radius:19px;
+}
+
+/* Watch top */
+#sb div .watch-top{
+ filter: hue-rotate(105deg);
+}
+
+/* Division */
+#sb{
+ border-top-left-radius:0px;
+ border-top-right-radius:29px;
+}
+
+/* Division */
+#board-layout-sidebar > div{
+ border-top-left-radius:37px;
+ border-top-right-radius:0px;
+}
+
+/* Division */
+#board-layout-player-top > div > div{
+ border-top-left-radius:19px;
+ border-top-right-radius:19px;
+ border-bottom-left-radius:19px;
+ border-bottom-right-radius:19px;
+}
+
+/* Division */
+#board-layout-player-bottom > div > div{
+ border-top-left-radius:19px;
+ border-top-right-radius:19px;
+ border-bottom-left-radius:19px;
+ border-bottom-right-radius:19px;
+}
+
+
+/* Board single */
+#board-single{
+ animation: boardhue 15s linear infinite;
+}
+
+/* Board single */
+#board-single{
+ border-top-left-radius:19px;
+ border-top-right-radius:19px;
+ border-bottom-left-radius:19px;
+ border-bottom-right-radius:19px;
+}
+
+/* Time Unknownor button Unknowned */
+#board-layout-sidebar div .time-selector-button-selected{
+ box-shadow:none;
+ filter: hue-rotate(224deg);
+}
+
+/* Time Unknownor button button */
+div div .time-selector-section-component .time-selector-field-component .time-selector-button-button{
+ filter: hue-rotate(182deg) !important;
+}
+
+/* Time Unknownor button button */
+.recent-time-section-component .time-selector-button-button{
+ filter: hue-rotate(182deg);
+}
+
+/* Division */
+#board-layout-sidebar > div > div > div{
+ box-shadow:1px -50px 50px 100px rgba(0,0,0,0.06) inset;
+ backdrop-filter:blur(3.88px) saturate(0.9);
+}
+
+/* Division */
+#sb{
+ backdrop-filter:blur(3.03px);
+}
+
+/* Settings modal container component */
+.modal-container-component .settings-modal-container-component{
+ background-color:rgba(0,0,0,0) !important;
+ backdrop-filter:blur(10px) brightness(0.8) saturate(1.1);
+}
+
+/* Label */
+.settings-modal-content-content .settings-board-tab-switch label{
+ background-color:rgba(108,6,151,0.51) !important;
+ backdrop-filter:blur(10px) saturate(10);
+ filter: saturate(2.4);
+}
+
+/* Label */
+.settings-modal-content-content .settings-play-general-tab-switch label{
+ background-color:#814b99 !important;
+}
+
+/* Section content wide */
+#view-profile .v5-section .v5-section-content-wide{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Section */
+#view-profile .v5-section-clear .v5-section,.layout-component .v5-section:nth-child(2){
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Section */
+.layout-component .layout-column-two .v5-section{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Header border */
+#view-profile .v5-section .v5-header-border{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Navigation footer left */
+#navigation-footer .navigation-footer-left{
+ display:none;
+}
+
+/* Navigation footer platforms component */
+#navigation-footer .navigation-footer-platforms-component{
+ display:none;
+}
+
+/* Footer block container */
+#vue-instance a.footer-block-container{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Section content wide */
+#vue-instance .v5-section .v5-section-content-wide{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Section */
+#vue-instance .game-parent .v5-section{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Section */
+#vue-instance .v5-section{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+}
+
+/* Promo component */
+.base-layout .promo-component{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.83);
+ border-top-left-radius:25px;
+ border-top-right-radius:25px;
+ border-bottom-left-radius:25px;
+ border-bottom-right-radius:25px;
+}
+
+/* Header */
+#tb{
+ transform:scale(1.08);
+ margin-bottom:2px !important;
+}
+
+@media (min-width:600px){
+
+ /* Header */
+ #tb{
+  padding-bottom:18px !important;
+  padding-top:0px;
+  margin-top:22px !important;
+ }
+ 
+ /* Promo component */
+ .base-layout .promo-component{
+  padding-bottom:19px;
+ }
+ 
+}
+
+/* Load more button button more */
+#vue-instance div .load-more-button-button-more{
+ backdrop-filter:blur(10px) brightness(0.89) saturate(0.89);
+ border-top-left-radius:3px;
+}
+
+/* Promo review */
+.promo-component .promo-item .promo-review{
+ filter: hue-rotate(162deg);
+}
+
+/* Play quick links icon */
+.play-quick-links-component .play-quick-links-play-x-min .play-quick-links-icon{
+ filter: hue-rotate(202deg);
+}
+
+/* Home user info */
+#tb .toolbar-user-info .home-user-info{
+ box-shadow:none;
+}
+
+/* Move san premove */
+.analysis-view-lines .engine-line-withicon .move-san-premove{
+ color:#cb23ff;
+}
+
+/* Button primary */
+#analysis-hml-scroll-container .ui_v5-button-primary{
+ filter: hue-rotate(162deg);
+}
+
+/* Label */
+.analysis-options-toggles .switch-switch label{
+ filter: hue-rotate(158deg);
+}
+
+/* Division */
+#board-layout-sidebar > div{
+ transform:translatex(0px) translatey(0px);
+ backdrop-filter:blur(10px);
+}
+
+/* Division */
+#board-layout-player-top > div{
+ backdrop-filter:blur(10px) brightness(0.83) saturate(0.78);
+ border-top-right-radius:22px;
+ border-bottom-right-radius:22px;
+}
+
+/* Division */
+#board-layout-player-bottom > div{
+ backdrop-filter:blur(10px) brightness(0.83) saturate(0.78);
+ border-bottom-right-radius:22px;
+ border-top-right-radius:22px;
+}
+
+/* Span Tag */
+.bot-description-component .bot-description-description span{
+ background-color:rgba(0,0,0,0);
+ backdrop-filter:blur(1px) brightness(1) saturate(1);
+}
+
+/* Selected bot info */
+.selection-menu-component .selected-bot-info{
+ background-color:rgba(0,0,0,0);
+ backdrop-filter:blur(1px) brightness(1) saturate(1);
+}
+
+/* Division */
+#board-layout-sidebar .v5-section > div{
+ backdrop-filter:blur(10px) brightness(0.94) saturate(0.94);
+}
+
+
+
